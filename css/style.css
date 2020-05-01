@@ -24,7 +24,7 @@ body{
 }
 
 #menu{
-    max-width: 50px;
+    max-width: 25px;
     top: 20px;
     left: 20px;
 }
@@ -37,8 +37,8 @@ body{
 }
 
 .p1{
-    max-height: 450px;
-    height: 450px;
+    max-height: 400px;
+    height: 400px;
     position: relative;
     background-color: black;
     display: flex;
@@ -47,7 +47,7 @@ body{
     justify-content: space-evenly;
     flex-direction: row;
     width: 80%;
-    margin: 128px auto 0;
+    margin: 1em auto;
     padding-left: 50px;
     border: firebrick 3px solid;
     border-radius: 5em;
@@ -65,8 +65,29 @@ body{
 .logo{
     top: 0px;
     margin: auto;
-    position: fixed;
     max-width: 128px;
+    display: flex;
+    align-items: center;
+}
+
+.theButtons{
+    display: flex;
+    justify-content: right;
+}
+
+.button{
+    background-color: black;
+    border: firebrick 2px solid;
+    border-radius: 20px;
+    padding: .5em 1em;
+    margin: 1em 2em 0 0;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.button:hover{
+    background-color: transparent;
+    color: firebrick;
 }
 
 /*
@@ -77,6 +98,18 @@ h1{
     border-bottom: firebrick 1px solid;
     font-size: 48px
 }
+
+h2{
+    border-bottom: firebrick 1px solid;
+    font-size: 28px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
 
 /*
     MEDIA QUERIES
