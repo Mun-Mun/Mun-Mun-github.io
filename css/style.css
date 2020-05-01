@@ -12,7 +12,7 @@ html {
     STRUCTURES
  */
 body{
-    background-color: black;
+    background-color: white;
 }
 
 /*
@@ -23,14 +23,59 @@ body{
     margin: auto;
 }
 
+#menu{
+    max-width: 50px;
+    top: 20px;
+    left: 20px;
+}
+
+#me{
+    max-height: 90%;
+    border-radius: 50%;
+    border: firebrick 3px solid;
+    position: inherit;
+}
+
 .p1{
-    background-color: white;
+    max-height: 450px;
+    height: 450px;
+    position: relative;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 80%;
+    margin: 128px auto 0;
+    padding-left: 50px;
+    border: firebrick 3px solid;
+    border-radius: 5em;
+    color: white;
+}
+
+.leaf1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     flex-direction: column;
-    margin: 0 auto 0;
+    margin: auto;
+}
+
+.logo{
+    top: 0px;
+    margin: auto;
+    position: fixed;
+    max-width: 128px;
+}
+
+/*
+    TYPOLOGY
+*/
+
+h1{
+    border-bottom: firebrick 1px solid;
+    font-size: 48px
 }
 
 /*
