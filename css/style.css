@@ -69,6 +69,36 @@ body{
     align-items: center;
 }
 
+.contacts{
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 80%;
+    margin: 1em auto;
+}
+
+#instagram{
+    max-height: 100px;
+}
+
+#twitter{
+    max-height: 150px;
+}
+
+#linkedin{
+    max-height: 100px;
+}
+#github{
+    max-height: 100px;
+}
+#mail{
+    max-height: 100px;
+}
+
 /*
     TYPOLOGY
 */
