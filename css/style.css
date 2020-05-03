@@ -137,6 +137,45 @@ body{
     color: black;
 }
 
+.course{
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 80%;
+    margin: 1em auto;
+    border: firebrick 3px solid;
+    border-radius: 5em;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto;
+    position: inherit;
+    hieght: 70%;
+}
+
+.cs{
+    text-align: left;
+    padding-right: 20px;
+}
+
+.info{
+    text-align: right;
+    padding-left: 20px;
+}
+
+
 /*
     TYPOLOGY
 */
@@ -181,7 +220,7 @@ a{
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+    p
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
