@@ -31,14 +31,14 @@ body{
 
 #me{
     max-height: 90%;
-    max-width: 90%;
+    height: 350px;
+    max-width: 40%;
     border-radius: 50%;
     border: firebrick 3px solid;
     position: inherit;
 }
 
 .p1{
-    height: 400px;
     position: relative;
     background-color: black;
     display: flex;
@@ -67,7 +67,7 @@ body{
 }
 
 .p2{
-    height: 400px;
+    height: 300px;
     position: relative;
     background-color: black;
     display: flex;
@@ -244,7 +244,7 @@ h1{
 
 h2{
     border-bottom: firebrick 1px solid;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 a{
@@ -260,34 +260,63 @@ p{
 /*
     MEDIA QUERIES
 */
-@media screen and (max-height: 450px){
+@media screen and (max-height: 200px){
     .sidenav{
         padding-top: 15px;
     }
     .sidenav a{
         font-size: 18px;
     }
-
+    #me{
+        height: 150px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 12px;
+    }
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    #me{
+        height: 200px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 22px;
+    }
     p{
-        font-size: 12px;
+        font-size: 15px;
     }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    p{
-        font-size: 12px;
+    #me{
+        height: 250px;
     }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    h1{
+        font-size: 56px;
+    }
+    h2{
+        font-size: 24px;
+    }
     p{
         font-size: 18px;
+    }
+    #me{
+        height: 350px;
     }
 }
 
