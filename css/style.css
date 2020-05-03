@@ -99,13 +99,51 @@ body{
     max-height: 100px;
 }
 
+.resume{
+    height: 1000px;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: auto;
+    border: firebrick 3px solid;
+    border-radius: 5em;
+    background-color: black;
+}
+
+#resume{
+    height: 90%;
+    width: 75%;
+    position: inherit;
+}
+
+.button{
+    overflow: hidden;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: firebrick 2px solid;
+    border-radius: 5em;
+}
+
+.resume a.button:hover {
+    background-color: white;
+    color: black;
+}
+
 /*
     TYPOLOGY
 */
 
 h1{
     border-bottom: firebrick 1px solid;
-    font-size: 48px
+    font-size: 48px;
 }
 
 h2{
