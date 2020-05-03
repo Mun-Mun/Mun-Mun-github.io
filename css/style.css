@@ -31,6 +31,7 @@ body{
 
 #me{
     max-height: 90%;
+    max-width: 90%;
     border-radius: 50%;
     border: firebrick 3px solid;
     position: inherit;
@@ -43,22 +44,45 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: row;
     width: 80%;
     margin: 1em auto;
-    padding-left: 50px;
     border: firebrick 3px solid;
     border-radius: 5em;
     color: white;
+    padding-left: 100px;
+    padding-right: 50px;
 }
 
 .leaf1{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     margin: auto;
+    position: inherit;
+    padding: 30px;
+}
+
+.p2{
+    height: 400px;
+    position: relative;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    margin: 1em auto;
+    border: firebrick 3px solid;
+    border-radius: 5em;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
 }
 
 .logo{
@@ -66,6 +90,7 @@ body{
     margin: auto;
     max-width: 128px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -138,20 +163,19 @@ body{
 }
 
 .course{
-    height: 400px;
+    height: 450px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    width: 80%;
+    width: 50%;
     margin: 1em auto;
     border: firebrick 3px solid;
     border-radius: 5em;
     background-color: black;
     color: white;
-    position: relative;
 }
 
 .content{
@@ -162,7 +186,7 @@ body{
     flex-direction: row;
     margin: auto;
     position: inherit;
-    hieght: 70%;
+    hieght: 80%;
 }
 
 .cs{
@@ -175,6 +199,39 @@ body{
     padding-left: 20px;
 }
 
+.allMe{
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 1em auto;
+    border: firebrick 3px solid;
+    border-radius: 5em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.hobbies{
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 1em auto;
+    border: firebrick 3px solid;
+    border-radius: 5em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px 50px;
+}
 
 /*
     TYPOLOGY
@@ -182,7 +239,7 @@ body{
 
 h1{
     border-bottom: firebrick 1px solid;
-    font-size: 48px;
+    font-size: 56px;
 }
 
 h2{
@@ -193,6 +250,11 @@ h2{
 a{
     text-decoration: none;
     color: white;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.3em;
 }
 
 /*
@@ -210,17 +272,23 @@ a{
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+    p{
+        font-size: 12px;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+    p{
+        font-size: 12px;
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    p
+    p{
+        font-size: 18px;
+    }
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
